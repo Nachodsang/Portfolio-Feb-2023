@@ -5,11 +5,11 @@ import { AiOutlineGithub } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-y-2 text-white">
+    <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-y-2 text-white">
       <div className="font-normal text-md">
         All rights reserved. Nachod's Portfolio 2023.
       </div>
-      <div className="flex justify-evenly items-center gap-x-6">
+      <div className="flex lg:justify-evenly lg:flex-row flex-col items-center gap-x-6 ">
         {/* email */}
         <div className="cursor-pointer hover:underline underline-offset-4">
           <div className="flex justify-center items-center gap-x-1 ">
