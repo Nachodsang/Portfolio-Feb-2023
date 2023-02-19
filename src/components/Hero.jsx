@@ -22,7 +22,10 @@ function Hero() {
             considering me for any web development roles you may have available.
           </p>
 
-          <a className="mt-10">
+          <a
+            className="mt-10 hover:scale-105 transition"
+            href="https://drive.google.com/uc?export=download&id=116H9ft84QZCrMMPhxaEL97a5TgjF8ono"
+          >
             <button className="bg-gradient-to-br from-[#FDBD4F] to-[#FC5133] px-5 py-3 rounded-md text-white">
               Download Resume
             </button>
