@@ -5,7 +5,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-y-2 text-white">
+    <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-y-2 text-white w-full">
       <div className="font-normal text-md">
         All rights reserved. Nachod's Portfolio 2023.
       </div>
