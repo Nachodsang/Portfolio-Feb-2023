@@ -38,9 +38,9 @@ function CardWork({
           {dep2 && <div className="badge badge-outline">{dep2}</div>}
           {dep3 && <div className="badge badge-outline">{dep3}</div>}
           {dep4 && <div className="badge badge-outline">{dep4}</div>}
-          <div className="badge badge-outline badge-success ">
-            <a href={gitHub} className="text-xs">
-              {gitHub}
+          <div className="badge  badge-accent hover:badge-outline transition-all">
+            <a href={gitHub} className="text-md font-bold ">
+              Git Hub
             </a>
           </div>
         </div>
