@@ -19,7 +19,22 @@ function Work() {
         <div className="flex flex-col gap-y-6 pt-8  pb-8">
           {featuredWorks.map((item, index) => {
             // destructure item
-            const { id, title, thumbnail, year, type, api } = item;
+            const {
+              id,
+              title,
+              thumbnail,
+              year,
+              type,
+              api,
+              frameWork,
+              cssFrameWork,
+              dep1,
+              dep2,
+              dep3,
+              dep4,
+              link,
+              gitHub,
+            } = item;
             return (
               <CardWork
                 id={id}
@@ -30,6 +45,14 @@ function Work() {
                 api={api}
                 data={item}
                 key={index}
+                frameWork={frameWork}
+                cssFrameWork={cssFrameWork}
+                dep1={dep1}
+                dep2={dep2}
+                dep3={dep3}
+                dep4={dep4}
+                gitHub={gitHub}
+                link={link}
               />
             );
           })}
