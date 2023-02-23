@@ -21,7 +21,7 @@ function CardWork({
         <a href={link}>
           <img
             src={thumbnail}
-            className="w-[600px] h-[300px] object-cover hover:scale-105 trasition-all duration-700"
+            className="w-[600px] h-[300px] object-cover hover:scale-105 trasition-all duration-700 rounded-t-md "
           />
         </a>
       </figure>
@@ -38,8 +38,10 @@ function CardWork({
           {dep2 && <div className="badge badge-outline">{dep2}</div>}
           {dep3 && <div className="badge badge-outline">{dep3}</div>}
           {dep4 && <div className="badge badge-outline">{dep4}</div>}
-          <div className="badge badge-outline">
-            <a href={gitHub}>{gitHub}</a>
+          <div className="badge badge-outline badge-success ">
+            <a href={gitHub} className="text-xs">
+              {gitHub}
+            </a>
           </div>
         </div>
       </div>
