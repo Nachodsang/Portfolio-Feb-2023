@@ -13,7 +13,7 @@ function CardWork({
   dep3,
 }) {
   return (
-    <div className="card w-full  shadow-lg shadow-orange-400/80 flex flex-col lg:flex-row">
+    <div className="card w-full  shadow-md shadow-orange-400/50 flex flex-col lg:flex-row">
       <figure className="lg:flex-1 lg:rounded-md">
         <img src={thumbnail} />
       </figure>
