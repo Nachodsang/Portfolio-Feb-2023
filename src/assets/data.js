@@ -54,7 +54,7 @@ export const featuredWorks = [
     cssFrameWork: "TailwindCSS",
     api: "www.fff",
     type: "Responsive Front-end Project",
-    gitHub: "https://https://github.com/Nachodsang/Todo-app",
+    gitHub: "https://github.com/Nachodsang/Todo-app.git",
     link: "https://todo-app-ddo.pages.dev/",
     thumbnail: todoApp,
     dep1: "react-icons",
