@@ -1,10 +1,11 @@
-import pokemonProject from "../assets/images/pokemonTh.jpeg";
 import bookSearch from "../assets/images/Screenshot2023-02-23190320.png";
 import chatFilter from "../assets/images/screenshot-1676634644453.jpeg";
 import eCom from "../assets/images/Screenshot2023-02-23185823.png";
+import todoApp from "../assets/images/screenshot-1679386792565.jpeg";
 
 export const featuredWorks = [
   {
+    id: 1,
     title: "E-Commerce",
     year: 2023,
     frameWork: "ReactJS",
@@ -20,6 +21,7 @@ export const featuredWorks = [
     dep4: "Swiper",
   },
   {
+    id: 2,
     title: "Book Search",
     year: 2023,
     frameWork: "ReactJS",
@@ -32,6 +34,7 @@ export const featuredWorks = [
     dep1: "react-icons",
   },
   {
+    id: 3,
     title: "Contact Filter",
     year: 2023,
     frameWork: "ReactJS",
@@ -42,5 +45,19 @@ export const featuredWorks = [
     link: "https://contact-search-filter.pages.dev/",
     thumbnail: chatFilter,
     dep1: "react-icons",
+  },
+  {
+    id: 4,
+    title: "Todo App",
+    year: 2023,
+    frameWork: "ReactJS",
+    cssFrameWork: "TailwindCSS",
+    api: "www.fff",
+    type: "Responsive Front-end Project",
+    gitHub: "https://https://github.com/Nachodsang/Todo-app",
+    link: "https://todo-app-ddo.pages.dev/",
+    thumbnail: todoApp,
+    dep1: "react-icons",
+    dep2: "react-hook-form",
   },
 ];

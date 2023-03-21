@@ -13,7 +13,7 @@ function Hero() {
           </div>
           <p className="text-md md:text-xl mt-2">Web Developer</p>
           {/* about me */}
-          <p className="text-justify mt-4">
+          <p className="mt-4">
             I am an aspiring web developer with a passion for creating beautiful
             and functional websites. Through my portfolio, I aim to showcase my
             skills and abilities, as well as my eagerness to learn and grow in
