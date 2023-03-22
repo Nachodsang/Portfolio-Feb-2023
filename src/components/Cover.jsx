@@ -10,7 +10,7 @@ const Cover = () => {
       {/* canvas*/}
       <div className=" absolute top-0 bottom-0 w-full h-full">
         {/* container */}
-        <div className="relative max-w-[1040px] px-4 h-full mx-auto ">
+        <div className="relative max-w-[1040px] lg:px-4 h-full mx-auto ">
           {/* name and title */}
           <div className="flex flex-col lg:items-start items-center md:gap-8 gap-6 lg:gap-10 w-full absolute lg:top-[25%] top-[40%]  mx-auto">
             <div className="flex flex-col text-white/90 items-center lg:items-start">
