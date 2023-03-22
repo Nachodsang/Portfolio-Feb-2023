@@ -16,12 +16,12 @@ function CardWork({
   link,
 }) {
   return (
-    <div className="card w-full  shadow-md shadow-orange-400/50 flex flex-col lg:flex-row">
-      <figure className="lg:flex-1 lg:rounded-md">
+    <div className="card w-full  shadow-md shadow-orange-400/50 flex flex-col lg:flex-row overflow-hidden">
+      <figure className="lg:flex-1  bg-red-200">
         <a href={link}>
           <img
             src={thumbnail}
-            className="w-[600px] h-[300px] object-cover hover:scale-105 trasition-all duration-700 rounded-t-md "
+            className="w-[800px] h-[350px] md:w-[1000px] lg:w-[500px] lg:h-[300px] object-cover hover:scale-105 trasition-all duration-700 "
           />
         </a>
       </figure>

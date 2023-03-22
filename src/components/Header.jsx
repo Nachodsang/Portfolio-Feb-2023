@@ -9,16 +9,16 @@ function Header() {
   const [topicState, setTopicState] = useState(null);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 80 ? setheaderIsSolid(true) : setheaderIsSolid(false);
+      window.scrollY > 180 ? setheaderIsSolid(true) : setheaderIsSolid(false);
     });
   });
   return (
     <div
       className={`${
         headerIsSolid
-          ? "bg-gradient-to-br from-[#FDBD4F] to-[#FC5133] py-4 text-white"
-          : "bg-transparent py-6 "
-      } fixed top-0  w-full transition-all   z-10`}
+          ? "bg-gradient-to-br from-[#FDBD4F] to-[#FC5133] py-4 text-white shadow-2xl"
+          : "py-6 text-white"
+      } fixed top-0  w-full transition-all duration-1000 z-10   `}
     >
       {/* container */}
       <div className="px-4 max-w-[1440px] mx-auto flex justify-center  md:justify-end gap-x-4 font-semibold text-md md:gap-x-6 ">

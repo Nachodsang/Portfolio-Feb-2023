@@ -2,11 +2,11 @@ import React from "react";
 // import icons
 import { MdEmail, MdCall } from "react-icons/md";
 import { AiOutlineGithub } from "react-icons/ai";
-
+import { BsLinkedin } from "react-icons/bs";
 function Contact() {
   return (
     <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-y-2 text-white w-full">
-      <div className="font-normal text-md">
+      <div className="font-normal text-sm">
         All rights reserved. Nachod's Portfolio 2023.
       </div>
       <div className="flex lg:justify-evenly lg:flex-row flex-col items-center gap-x-6 ">
@@ -27,7 +27,16 @@ function Contact() {
             </div>
           </a>
         </div>
-        <div className="hover:underline underline-offset-4">
+
+        <div className="hover:underline underline-offset-4 flex items-center gap-x-6">
+          <a
+            href="https://linkedin.com/in/
+nachod-sang
+
+"
+          >
+            <BsLinkedin size={35} />
+          </a>
           <a href="https://github.com/Nachodsang">
             <AiOutlineGithub size={40} />
           </a>

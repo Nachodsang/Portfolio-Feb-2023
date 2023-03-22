@@ -5,13 +5,6 @@ function Hero() {
     <div id="hero" className="relative top-20 w-full  -z-0  mb-10">
       <div className="px-4 max-w-[1040px] mx-auto flex flex-col-reverse md:flex-row justify-between items-center ">
         <div className="flex flex-col items-start flex-1">
-          <div className="flex flex-col ">
-            <h1 className="text-2xl md:text-6xl font-bold">Nachod</h1>
-            <h1 className="text-xl mt-[-10px] md:text-5xl font-bold">
-              Sanguansataya
-            </h1>
-          </div>
-          <p className="text-md md:text-xl mt-2">Web Developer</p>
           {/* about me */}
           <p className="mt-4">
             I am an aspiring web developer with a passion for creating beautiful
