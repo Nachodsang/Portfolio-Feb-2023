@@ -18,7 +18,7 @@ function Hero() {
           <a
             className="mt-10 hover:scale-105 transition"
             // resume link
-            href="https://drive.google.com/uc?export=download&id=1pEQoiINTSwjGO5SfzybA4Wc253V_oP-Z"
+            href="https://drive.google.com/uc?export=download&id=1TTWzWNLKivDeoQdodgrJE5tj4mj-39zw"
           >
             <button className="bg-gradient-to-br from-[#FDBD4F] to-[#FC5133] px-5 py-3 rounded-md text-white">
               Download Resume
